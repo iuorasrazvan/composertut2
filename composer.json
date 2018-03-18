@@ -1,0 +1,35 @@
+{
+    "name": "iuorasrazvan/composertut2",
+    "description": "composertut2",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Iuoras Razvan",
+            "email": "iuorasrazvan2003@yahoo.com"
+        }
+    ],
+   
+    "require": {
+	
+		"iuorasrazvan/composertut":"1.0.*@dev"
+	}, 
+	
+	
+	"autoload": {
+		"psr-4": {
+			"User\\Telephone\\":"src/user/telephone"
+		}
+	
+	},
+	
+	"repositories": [
+		{ 
+			"type":"vcs", 
+			"url":"git@github.com:iuorasrazvan/composertut.git"
+		}
+	]
+	
+	
+	
+}
